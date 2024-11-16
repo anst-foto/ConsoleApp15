@@ -9,7 +9,7 @@ public class Contacts
 
 public class Person
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; }
     public string Name { get; set; }
     public Contacts Contacts { get; set; }
 }
